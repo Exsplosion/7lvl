@@ -1,6 +1,23 @@
 html {
     font-size: 15px;
     font-family: "Roboto-Black";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+a {
+    border: purple 1px solid;
+    padding: 10px;
+    display: flex;
+    
+}
+a:hover {
+    transform: rotate(720deg);
+    transition: 1.5s;
 }
 @font-face {
     font-family: "Roboto-Black";
