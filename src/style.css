@@ -2,6 +2,17 @@ html {
     font-size: 15px;
     font-family: "Roboto-Black";
 }
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 720px;
+    height: calc(296px - 67px);
+    font-size: .8rem;
+}
+div:hover {
+    box-shadow: 4px 4px 4px 4px #000;
+}
 @font-face {
     font-family: "Roboto-Black";
     src: url("Roboto-Black.ttf") format("truetype");
